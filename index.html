@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furkan Burak Günay | Software & Embedded Systems</title>
+    <!-- CSS Dosyamızı Bağlıyoruz -->
+    <link rel="stylesheet" href="furkan.css">
+</head>
+<body>
+
+    <div id="main-wrapper">
+        <header id="hero-section">
+            <div class="profile-container">
+                <img src="Furkan_Burak_Gunay.png" alt="Furkan Burak Günay" id="profile-img">
+            </div>
+            <h1>Furkan Burak Günay</h1>
+            <p class="subtitle">Computer Engineering Student | Embedded Systems & Full-Stack Developer</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/furkanburakgunay" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/furkanburakgunay" target="_blank">LinkedIn</a>
+                <a href="mailto:furkanburakgunay3@gmail.com">Email</a>
+            </div>
+        </header>
+
+        <section id="projects">
+            <h2 class="section-title">Featured Projects / Öne Çıkan Projeler</h2>
+            <div id="project-grid">
+                <!-- Veriler furkan.js tarafından buraya basılacak -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Get In Touch / İletişim</h2>
+            <form action="send_message.php" method="POST" id="contact-form">
+                <input type="text" name="name" placeholder="Adınız" required>
+                <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+                <textarea name="message" placeholder="Mesajınız" rows="5" required></textarea>
+                <button type="submit">Mesajı Gönder</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- JS Dosyamızı Bağlıyoruz -->
+    <script src="furkan.js"></script>
+</body>
+</html>
