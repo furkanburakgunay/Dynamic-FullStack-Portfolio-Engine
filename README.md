@@ -40,7 +40,7 @@ Bu proje, mühendislik çalışmalarını sergilemek için tasarlanmış, verita
 ---
 
 ## 📸 Preview / Önizleme
-![Portfolio Preview](furkan_web_project.jpg)
+![Portfolio Preview](furkan_web_project.png)
 
 ## 🚀 Installation / Kurulum
 1. **Database:** Import the provided SQL schema into your **MySQL** database. / Sağlanan SQL şemasını **MySQL** veritabanınıza aktarın.
